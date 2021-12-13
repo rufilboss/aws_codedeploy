@@ -1,18 +1,26 @@
 version: 0.1
 phases:    
-    install:        
-        commands:            
-            - 'touch .npmignore'            
-            - 'npm install -g gatsby'    
+    install:
+      runtime-versions:
+        nodejs: 10
+        commands:
+            - echo installing npm packages
+            - touch .npmignore            
+            - npm install -g gatsby    
     pre_build:        
         commands:            
-            - 'npm install'    
+            - npm install   
     build:        
-        commands:            
-            - 'npm run build'    
+        commands:
+            - echo build started          
+            - npm run build
     post_build:        
-        commands:            
-            - 'aws s3 sync "public/" "s3://rufiltestbucket" --delete --acl "public-read"'
+        commands:
+            - echo post_build started on 'date'
+            - aws s3 sync ./build s3://app-aws-portal 
+            - aws cloudfront create-invalidation --distribution-id E1IWK6K5MD7QJX --paths "/*";
+            - aws s3 sync public/ s3://rufiltestbucket --delete --acl public-read
+            # - aws s3 sync public/ $BUCKET --exclude "*.map" --acl public-read --delete
 artifacts:    
     base-directory: public    
     files:        
