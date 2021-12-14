@@ -8,7 +8,7 @@ phases:
       - npm install
   build:
     commands:
-      - echo build started
+      - echo build production started
       - npm run build
 
   post_build:
