@@ -14,4 +14,13 @@ phases:
   post_build:
     commands:
       - echo post_build started
-      - aws s3 sync public/ $BUCKET --exclude "*.map" --acl public-read --delete
+      # - aws s3 sync ./build s3://app-aws-portal 
+      # - aws cloudfront create-invalidation --distribution-id E1IWK6K5MD7QJX --paths "/*";
+      # - aws s3 sync public/ $BUCKET --exclude "*.map" --acl public-read --delete
+      - aws s3 sync public/ s3://rufiltestbucket --delete --acl public-read
+
+  artifacts:
+    base-directory: public
+    files:
+      - "**/*"
+    discard-paths: yes
