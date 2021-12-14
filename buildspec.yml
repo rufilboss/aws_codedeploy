@@ -14,4 +14,5 @@ phases:
   post_build:
     commands:
       - echo post_build started
-      - aws s3 sync public/ rufiltestbucket --exclude "*.map" --acl public-read --delete
+      # - aws s3 sync public/ rufiltestbucket --exclude "*.map" --acl public-read --delete
+      - aws s3 sync public/ s3://rufiltestbucket --delete --acl public-read
