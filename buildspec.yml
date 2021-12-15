@@ -6,7 +6,6 @@ phases:
     commands:
       - echo installing npm packages
       - npm install
-
   build:
     commands:
       - echo build production started
