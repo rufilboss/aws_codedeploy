@@ -11,7 +11,7 @@ const IndexPage = () => (
     <h1>Hello World, My name is Ilyas Rufai</h1>
     <h2>Aspiring DevOps Engineer...</h2>
     <p>Welcome To My First And New Gatsby Website.</p>
-    <p>Looking Forward To Build Something Great....</p>
+    <p>Looking Forward To Build Something Great.....</p>
     <StaticImage
       src="../images/gatsby-astronaut.png"
       width={300}
@@ -21,7 +21,7 @@ const IndexPage = () => (
       style={{ marginBottom: `1.45rem` }}
     />
     <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
+      <Link to="/page-2/">Go to the next page</Link> <br />
       <Link to="/using-typescript/">Go to "Using TypeScript"</Link> <br />
       <Link to="/using-ssr">Go to "Using SSR"</Link> <br />
       <Link to="/using-dsg">Go to "Using DSG"</Link>
