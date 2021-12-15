@@ -6,6 +6,7 @@ phases:
     commands:
       - echo installing npm packages
       - npm install
+      
   build:
     commands:
       - echo build production started
@@ -18,8 +19,8 @@ phases:
       - aws s3 sync public/ s3://rufiltestbucket --delete --acl public-read
       - aws cloudfront create-invalidation --distribution-id E2ZL20JM3QE32H --paths "/*";
 
-  artifacts:
-  files:
-    - '**/*'
-  discard-paths: no
-  base-directory: ./build
+artifacts:
+files:
+  - '**/*'
+discard-paths: no
+base-directory: ./build
