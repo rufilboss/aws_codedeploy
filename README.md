@@ -1,8 +1,8 @@
 <h1 align="center">
-  Gatsby's default starter
+  Ilyas Rufai Website
 </h1>
 
-# Ilyas Rufai Website [Visit the website](https://dirwudp1mskib.cloudfront.net/)
+# This Is Just A Test Website [Visit the website](https://dirwudp1mskib.cloudfront.net/)
 
 ## 🚀 A Quick Guide
 
@@ -21,7 +21,7 @@ Install packages with the following command:
 npm i
 ```
   Also make sure you are on the latest version of node, check this out to update node to the latest version.[Link](https://medium.com/stackfame/how-to-update-node-js-to-latest-version-linux-ubuntu-osx-windows-others-105749e90040)
-  # Node Version Manager(nvm) [RECOMMENDED]
+  ### Node Version Manager(NVM) [RECOMMENDED]
   Verify installation by using the following command:
   ```sh
   command -v nvm
@@ -40,3 +40,4 @@ gatsby develop
 
 
 ## What I Learnt From This Project
+
