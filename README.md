@@ -4,7 +4,7 @@
 
 # Ilyas Rufai Website [Visit the website](https://dirwudp1mskib.cloudfront.net/)
 
-## 🚀 Quick Guide
+## 🚀 A Quick Guide
 
 1. **Requirements**
 
@@ -16,12 +16,12 @@ npm install --global gatsby-cli
 
 2. **Installation**
 
-Install packages
+Install packages with the following command:
 ```sh
 npm i
 ```
   Also make sure you are on the latest version of node, check this out to update node to the latest version.[Link](https://medium.com/stackfame/how-to-update-node-js-to-latest-version-linux-ubuntu-osx-windows-others-105749e90040)
-  # I recommend using Node Versionn Manage(nvm)
+  # Node Version Manager(nvm) [RECOMMENDED]
   Verify installation by using the following command:
   ```sh
   command -v nvm
