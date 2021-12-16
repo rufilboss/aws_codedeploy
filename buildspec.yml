@@ -20,6 +20,6 @@ phases:
   cache:
   paths:
     - 'node_modules/**/*'
-  artifacts:
-    files:
-      - '**/*'
+  # artifacts:
+  #   files:
+  #     - '**/*'
