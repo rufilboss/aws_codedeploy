@@ -39,8 +39,11 @@ gatsby develop
  Now the website should be running at `http://localhost:8000`!
 
 
-## What I Learnt From This Project
+## What I've Learnt So Far
+I'm very happy to embark on this project.
 
+As I've said earlier, I can't wait to build and contibute to open source projects.
+So far, I've gained knowledge 
 
 
 ## Contributing
@@ -49,4 +52,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## License
-This Project Is [MIT](https://choosealicense.com/licenses/mit/) Licensed
+This project is [MIT](https://choosealicense.com/licenses/mit/) Licensed.
