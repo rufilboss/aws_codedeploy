@@ -4,7 +4,7 @@
 
 # This Is Just A Test Website [Visit the website](https://dirwudp1mskib.cloudfront.net/)
 
-## 🚀 A Quick Guide
+## 🚀 A Quick Guide On How To Install And Run The Project
 
 1. **Requirements**
 
@@ -20,8 +20,8 @@ Install packages with the following command:
 ```sh
 npm i
 ```
-  Also make sure you are on the latest version of node, check this out to update node to the latest version.[Link](https://medium.com/stackfame/how-to-update-node-js-to-latest-version-linux-ubuntu-osx-windows-others-105749e90040)
-  ### Node Version Manager(NVM) [RECOMMENDED]
+  Also, make sure you have the latest version of node installed in your working directory, check this out on how to update node to the latest version.[Link](https://medium.com/stackfame/how-to-update-node-js-to-latest-version-linux-ubuntu-osx-windows-others-105749e90040)
+  ### Node Version Manager [nvm](https://github.com/nvm-sh/nvm) [RECOMMENDED]
   Verify installation by using the following command:
   ```sh
   command -v nvm
@@ -41,3 +41,12 @@ gatsby develop
 
 ## What I Learnt From This Project
 
+
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
