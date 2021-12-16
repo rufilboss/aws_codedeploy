@@ -17,6 +17,6 @@ phases:
       - echo post_build started on `date`
       - aws s3 sync public/ s3://rufiltestbucket --delete --acl public-read
       - aws cloudfront create-invalidation --distribution-id E2ZL20JM3QE32H --paths "/*";
-  cache:
-    paths:
-      - 'node_modules/**/*'
+  # cache:
+  #   paths:
+  #     - 'node_modules/**/*'
