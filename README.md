@@ -51,7 +51,7 @@ This project is [MIT](https://choosealicense.com/licenses/mit/) Licensed.
 </h1>
 
 ## Github Action 
-So far I've understand what a github action does, in setting up a 
+So far I've understand what a github action does, in setting up a CI/CD pipeline.
 
 ## AWS IAM
 
