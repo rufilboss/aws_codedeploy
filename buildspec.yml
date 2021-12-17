@@ -24,5 +24,4 @@ cache:
 artifacts:
   files:
     - '**/*'
-  discard-paths: yes
-  # base-directory: ./build
+  # discard-paths: yes

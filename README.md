@@ -8,7 +8,7 @@
 
 1. **Requirements**
 
-Please Make sure that you have the Gatsby CLI program installed on your computer by runnig the following command:
+Please Make sure that you have the Gatsby CLI program installed on your computer by running the following command:
 
 ```sh
 npm install --global gatsby-cli
@@ -38,14 +38,6 @@ gatsby develop
 ```
  Now the website should be running at `http://localhost:8000`!
 
-
-## What I've Learnt So Far
-I'm very happy to embark on this project.
-
-As I've said earlier, I can't wait to build and contibute to open source projects.
-So far, I've gained knowledge 
-
-
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
@@ -53,3 +45,27 @@ Please make sure to update tests as appropriate.
 
 ## License
 This project is [MIT](https://choosealicense.com/licenses/mit/) Licensed.
+
+<h1 align="center">
+  What I've Learnt So Far
+</h1>
+
+## Github Action 
+So far I've understand what a github action does, in setting up a 
+
+## AWS IAM
+
+
+## AWS S3
+I've gain much knowledge using s3 bucket on AWS for storage and to host a static website.
+
+## AWS CloudFront
+
+
+## AWS CI/CD
+I'm able to setup a CI/CD on AWS using codebuild, codepipeline etc..
+
+## Conclusion
+I don't think there's a problem one can encounter in his/her project, that someone else has never faced, thereby leaving the solution in different kind of format be it video, documentation or code etc.. 
+
+The issue is just that how will you find the right answer to solve your problem, sometimes critical because, you could've browse through all different communities of developers like stackoverflow, and you still don't get what you're looking for, or may find confusing one 
