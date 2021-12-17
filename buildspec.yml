@@ -24,4 +24,4 @@ cache:
 artifacts:
   files:
     - '**/*'
-  # discard-paths: yes
+  discard-paths: yes
