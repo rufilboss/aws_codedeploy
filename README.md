@@ -4,7 +4,7 @@
 
 # This Is Just A Test Website [Visit the website](https://dirwudp1mskib.cloudfront.net/)
 
-## 🚀 A Quick Guide On How To Install And Run The Project
+## 🚀 A Quick Guide
 
 1. **Requirements**
 
@@ -50,14 +50,14 @@ This project is [MIT](https://choosealicense.com/licenses/mit/) Licensed.
   What I've Learnt So Far
 </h1>
 
-## AWS
+## AWS Console
 I'm able to navigate through AWS console and make use of some AWS services like; IAM (user, role & policies), s3 bucket(for storage & hosting a static website) codecommit, codebuild, codepipeline, codedeploy, CloudFront (what content delivery network(CDN) is).
 
 ## Github Action 
 So far I've understand what a github action does, in setting up a CI/CD pipeline.
 
 ## Conclusion
-I'm able to setup a CI/CD on AWS using codecommit, codebuild & codepipeline etc..
+I'm able to setup a CI/CD on AWS using github, codebuild & codepipeline etc..
 <!-- 
 I don't think there's a problem one can encounter in his/her project, that someone else has never faced, thereby leaving the solution in different kind of format be it video, documentation or code etc.. 
 
