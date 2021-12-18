@@ -20,8 +20,3 @@ phases:
 cache:
   paths:
   - 'node_modules/**/*'
-
-artifacts:
-  files:
-    - '**/*'
-  discard-paths: yes
