@@ -44,7 +44,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## License
-This project is [MIT](https://choosealicense.com/licenses/mit/) Licensed.
+This project is 0BSD Licensed.
 
 <h1 align="center">
   What I've Learnt So Far
