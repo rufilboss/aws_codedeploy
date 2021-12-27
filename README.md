@@ -20,6 +20,7 @@ Install packages with the following command:
 ```sh
 npm i
 ```
+
   Also, make sure you have the latest version of node installed in your working directory, check this out on how to update node to the latest version.[Link](https://medium.com/stackfame/how-to-update-node-js-to-latest-version-linux-ubuntu-osx-windows-others-105749e90040)
   ### Node Version Manager [nvm](https://github.com/nvm-sh/nvm) [RECOMMENDED]
   Verify installation by using the following command:
@@ -51,7 +52,7 @@ This project is 0BSD Licensed.
 </h1>
 
 ## AWS Console
-I'm able to navigate through AWS console and make use of some AWS services like; IAM (user, role & policies), s3 bucket(for storage & hosting a static website) codecommit, codebuild, codepipeline, codedeploy, CloudFront (what content delivery network(CDN) is).
+I'm able to navigate through AWS management console and make use of some AWS services like: IAM (user, role & policies), s3 bucket(for storage & hosting a static website) codecommit, codebuild, codepipeline, codedeploy, CloudFront (what content delivery network(CDN) is).
 
 ## Github Action 
 So far I've understand what a github action does, in setting up a CI/CD pipeline.
