@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Asruf`,
+    title: `Rufilboy`,
     description: `Ilyas test website.`,
     author: `@rufilboy`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
