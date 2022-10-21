@@ -1,4 +1,4 @@
-# CI/CD on AWS using Github, codebuild & codepipeline...
+# CI/CD on AWS using Github, codebuild & codepipeline
 
 ## This Is Just A Test Website
 
